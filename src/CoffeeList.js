@@ -23,14 +23,14 @@ function CoffeeList() {
             <li key={coffee.id}>
               <img src={coffee.image} alt={coffee.title} />
               <h3>{coffee.title}</h3>
-              <p>
+              <h4>
                 {coffee.ingredients.map((ingredient, index) => (
                   <React.Fragment key={index}>
                     {index > 0 && ", "}
                     {ingredient}
                   </React.Fragment>
-                ))}
-              </p>
+                ))}{" "}
+              </h4>
               <p>{coffee.description}</p>
             </li>
           ))}

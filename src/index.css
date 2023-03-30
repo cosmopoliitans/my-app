@@ -40,3 +40,8 @@ img {
   border-radius: 15px;
   border: 1px solid #ccc;
 }
+
+h4 {
+  font-size: bold;
+  color: #424040;
+}
